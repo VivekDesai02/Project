@@ -1,0 +1,19 @@
+@charset "UTF-8";
+#home{
+			align-items: center;
+			width:650px;
+			background:linear-gradient(45deg,black , gray);
+			color: white;		
+			margin-left: auto;
+			margin-right: auto;
+			padding: 5px;
+			
+		
+					
+	}
+	
+table{
+		font-size: 20px;
+		border: whitesmoke;	
+	}
+	
