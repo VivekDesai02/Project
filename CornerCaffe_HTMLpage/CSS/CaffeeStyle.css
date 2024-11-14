@@ -1,0 +1,142 @@
+body{
+    background-image: url(../Images/caffe.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    
+    
+}
+
+#heading{
+    text-align: center;
+    color: antiquewhite;
+    text-decoration: underline;
+    text-decoration-color: brown;
+    margin: 5px;
+    margin-top: 50px;
+    text-shadow: 5px -6px 4px black;
+    letter-spacing: 5px;
+    
+}
+h3{
+    color: rgb(252, 252, 252);
+    margin: 2px;
+    padding: 2px;
+    /* border: 1px solid green; */
+    text-align: center;
+   text-decoration: underline;
+   text-decoration-style: dashed;
+    /* font-size: small; */
+}
+#contant{
+    /* border: 10px inset saddlebrown; */
+    border: 10px inset brown;
+    width: auto;
+    height: auto;
+    margin: 20px 5px;
+    box-shadow: 5px 8px 5px black;
+    display: inline-block;
+    
+}
+#imagestyle{
+    width: 150px;
+    height: auto;
+    /* border: 1px solid wheat; */
+    display: inline-block;
+    /* margin: 5px; */
+    background-size: cover;
+    box-sizing: border-box;
+
+}
+#imagestyle:hover{
+    transform: rotate(360deg);
+    transition: all 5s;
+
+}
+#menu{
+    
+    width: auto;
+    display: inline-block;
+    /* border: 1px solid blue; */
+    /* margin: 5px; */
+    box-sizing: border-box;
+}
+#menu:hover{
+/* font-size: 20px;
+height: 25px;
+width: 200px;
+transition: all 10s; */
+
+}
+ol li{
+    color:white;
+    /* width: 150px;
+    height: 100px; */
+    margin: 2px;
+    padding: 10px 20PX;
+    text-align: start;
+    line-height: 10px;
+    border: 5px groove sienna;
+}
+ol li:hover{
+color: blue;
+/* height: 50px; */
+
+
+
+}
+ul{
+background-color: brown;
+margin: 0;
+padding: 0;
+list-style-type: none;
+overflow: hidden;
+position: fixed;
+top: 0;
+width: 100%;
+left: 0;
+right: 0;
+}
+ul li{
+float: right;
+padding: 0px 30px 0px 0px ;
+}
+ul li a{
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+li a:hover{
+    color: black;
+    background-color: aliceblue;
+}
+li i{
+    padding: 0px 10px 0px 0px ;
+}
+#NavHeader{
+    float: left;
+    font-size: 25px;
+    padding: 5px 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: aliceblue;
+    text-shadow: 6px 6px 6px black;
+}
+marquee{
+    width: 100%;
+    color: white;
+}
+marquee a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px 0px 0px 0px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 5px;
+    text-shadow: 5px 8px 7px black;
+    color: aliceblue;
+}
+marquee a:hover{
+    color: brown;
+}
